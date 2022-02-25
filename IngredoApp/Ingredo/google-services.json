@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1065201779829",
+    "firebase_url": "https://ingredo-7d525.firebaseio.com",
+    "project_id": "ingredo-7d525",
+    "storage_bucket": "ingredo-7d525.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065201779829:android:4d8e29b92ff364a021e43c",
+        "android_client_info": {
+          "package_name": "net.simplifiedlearning.volleymysqlexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065201779829-kv31bmc406i1b4cp49j8tnt0dq9unk3h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.simplifiedlearning.volleymysqlexample",
+            "certificate_hash": "d38cd1b9c3b667bcd63276a1371a7edb25d500c1"
+          }
+        },
+        {
+          "client_id": "1065201779829-mpmi9o4bm5cv69gc2tl0l82jaa75id28.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBq-sqPvBmaJ7fwDuAFMgQzEcpClWAnZlI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065201779829-mpmi9o4bm5cv69gc2tl0l82jaa75id28.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

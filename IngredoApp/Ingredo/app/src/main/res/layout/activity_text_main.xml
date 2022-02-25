@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="236dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/scan_text_2" />
+
+
+    <RelativeLayout
+        android:id="@+id/actionContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="18dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="144dp"
+            android:layout_height="33dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginEnd="96dp"
+            android:background="@drawable/rounded_button"
+            android:shadowColor="#00BCD4"
+            android:text="Select Image"
+            android:textColor="@color/white"
+            android:onClick="selectImage"/>
+
+        <Button
+            android:id="@+id/buttontext"
+            android:layout_width="144dp"
+            android:layout_height="33dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="45dp"
+            android:background="@drawable/rounded_button"
+            android:onClick="startRecognizing"
+            android:shadowColor="#00BCD4"
+            android:text="Recognize Text"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="380dp"
+        android:layout_height="230dp"
+        android:layout_below="@+id/actionContainer"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:gravity="top"
+        android:hint="Detected text will appear here."
+        android:inputType="textMultiLine"
+        android:padding="10dp" />
+
+
+    <com.spark.submitbutton.SubmitButton
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginRight="97dp"
+        android:layout_marginBottom="46dp"
+        android:background="@color/white"
+        android:text="Submit"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        app:sub_btn_background="@color/newcolor"
+        app:sub_btn_duration="3000"
+        app:sub_btn_line_color="@color/niceblue"
+        app:sub_btn_ripple_color="@color/newcolor"
+        app:sub_btn_tick_color="@color/white" />
+
+</RelativeLayout>
